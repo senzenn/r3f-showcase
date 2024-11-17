@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Logo from "@/public/Logowhite.svg";
-
 import { useGSAP } from "@gsap/react";
 import { ScrollToPlugin } from "gsap/dist/ScrollToPlugin";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
