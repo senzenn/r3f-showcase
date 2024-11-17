@@ -26,7 +26,7 @@ export default function RefractiveHero() {
   return (
     <div className="relative">
       <div
-        className="h-[50vh] sm:h-[70vh] w-full bg-black"
+        className="h-[50vh] sm:h-[70vh] top-200 md:ml-24 md:mr-24 w-full bg-black"
         style={{ zIndex: zIndex }}
       >
         <Canvas camera={{ position: [0, 0, 3.5], fov: 45 }}>
