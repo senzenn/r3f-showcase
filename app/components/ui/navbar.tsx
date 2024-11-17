@@ -63,8 +63,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="left-10 fixed top-100">
-        <Image src={Logo} alt="logo.png" />
+      <nav className="left-10 p-4 -z-100 fixed top-100">
         <div className="flex flex-col gap-4 text-white">
           {Object.values(SectionId).map((id) => (
             <button key={id} data-section-id={id} className="nav-button">
