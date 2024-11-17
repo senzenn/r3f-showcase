@@ -5,7 +5,7 @@ import Navbar, { SectionId } from "./components/ui/navbar";
 export default function Home() {
   return (
     <>
-      <main className=" nav-section bg-off-black w-full   font-sans">
+      <main className="bg-off-black w-full font-sans">
         <Navbar />
         <section
           id={SectionId.Home}
@@ -16,7 +16,7 @@ export default function Home() {
 
         <section
           id={SectionId.About}
-          className=" nav-section h-[100vh] w-full border p-20"
+          className="nav-section h-[100vh] w-full border p-20"
         >
           <h2 className="text-xl font-bold text-white">About </h2>
         </section>
