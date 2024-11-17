@@ -6,7 +6,7 @@ import Navbar, { SectionId } from "./components/ui/navbar";
 export default function Home() {
   return (
     <>
-      <main className="bg-off-black w-full font-sans">
+      <main className="bg-black w-full font-sans">
         <Navbar />
         <section
           id={SectionId.Home}
