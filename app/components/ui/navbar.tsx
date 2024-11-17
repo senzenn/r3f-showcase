@@ -63,7 +63,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="left-10 fixed top-10">
+      <nav className="left-10 fixed top-100">
         <Image src={Logo} alt="logo.png" />
         <div className="flex flex-col gap-4 text-white">
           {Object.values(SectionId).map((id) => (
