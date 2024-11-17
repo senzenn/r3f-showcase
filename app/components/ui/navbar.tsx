@@ -29,8 +29,8 @@ export default function Navbar() {
     sections.forEach((section) => {
       ScrollTrigger.create({
         trigger: section,
-        start: "top 80%",
-        end: "top 10%",
+        start: "top 50%",
+        end: "bottom 10%",
         onEnter: () => {
           console.log("Entered Section:", section.id);
           setActiveSection(section.id as SectionId);
