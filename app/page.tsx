@@ -3,6 +3,7 @@
 import TransparentHero from "./components/ui/hero-transparent";
 import { Marquee } from "./components/ui/marquee";
 import Navbar, { SectionId } from "./components/ui/navbar";
+import OrbitExperience from "./components/ui/Orbot-Experience";
 
 export default function Home() {
   return (
@@ -22,9 +23,10 @@ export default function Home() {
 
         <section
           id={SectionId.About}
-          className=" bg-green-950 nav-section h-[100vh] w-full border p-20"
+          className="  nav-section h-[100vh] w-full border p-20"
         >
           <h2 className="text-xl font-bold text-white">About </h2>
+          <OrbitExperience />
         </section>
 
         <section
