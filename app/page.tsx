@@ -1,6 +1,7 @@
 "use client";
 
 import TransparentHero from "./components/ui/hero-transparent";
+import { Marquee } from "./components/ui/marquee";
 import Navbar, { SectionId } from "./components/ui/navbar";
 
 export default function Home() {
@@ -10,10 +11,10 @@ export default function Home() {
         <Navbar />
         <section
           id={SectionId.Home}
-          className="    h-[100vh] w-full border p-20 nav-section"
+          className="h-[100vh] w-full border p-20 nav-section"
         >
           <TransparentHero />
-
+          <Marquee />
           {/* <div> */}
           {/*   <h1 className="text-center text-9xl ">PAGE ONE </h1> */}
           {/* </div> */}

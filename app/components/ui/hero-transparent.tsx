@@ -61,7 +61,13 @@ function Scene() {
         ASCENZEN
       </Text>
       <RefractiveBox />
-      <OrbitControls enableZoom={false} enablePan={false} />
+      <OrbitControls
+        enableRotate={false}
+        enableZoom={false}
+        enablePan={false}
+        enableDamping={false}
+        autoRotate
+      />
     </>
   );
 }
